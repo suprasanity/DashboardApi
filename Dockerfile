@@ -1,5 +1,5 @@
 # Use the official AdoptOpenJDK 18 image as the base image
-FROM openjdk:18-jdk-alpine3.14 AS runtime
+FROM openjdk:17-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
