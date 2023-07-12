@@ -1,5 +1,5 @@
 # Use the official AdoptOpenJDK 18 image as the base image
-FROM adoptopenjdk:18-jre-hotspot AS runtime
+FROM openjdk:18-jdk-alpine3.14 AS runtime
 
 # Set the working directory inside the container
 WORKDIR /app
