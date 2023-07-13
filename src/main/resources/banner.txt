@@ -7,3 +7,4 @@
 
 
 ${application.title} ${application.version}
+${application.description}
