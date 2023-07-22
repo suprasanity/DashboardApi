@@ -9,9 +9,7 @@ public class MonitoringController {
     public String monitorBd(){
         return "je suis unecatind";
     }
-    //add othr methods like hello
 
-    efze
 
 
 }
