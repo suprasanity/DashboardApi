@@ -1,10 +1,21 @@
 package fr.freeboxos.chovy.dashboardapi.controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/monitoring")
+@RestController("/hello")
 public class MonitoringController {
 
+    @GetMapping("/hello")
     public String monitorBd(){
         return "je suis unecatind";
     }
+    //add othr methods like hello
+
+    @GetMapping("/hellof")
+    public String monitorBdf(){
+        return "je suis unecatind";
+    }
+
+
+
 }
