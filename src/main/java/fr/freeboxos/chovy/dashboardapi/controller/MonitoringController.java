@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MonitoringController {
 
     public String monitorBd(){
-        return "je suis unecatin";
+        return "je suis unecatind";
     }
 }
