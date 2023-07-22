@@ -3,7 +3,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController("/monitoring")
 public class MonitoringController {
-//just for testr
+//just for testrf
     public String monitorBd(){
         return "true";
     }
