@@ -11,11 +11,7 @@ public class MonitoringController {
     }
     //add othr methods like hello
 
-    @GetMapping("/hellof")
-    public String monitorBdf(){
-        return "je suis unecatind";
-    }
-
+    efze
 
 
 }
