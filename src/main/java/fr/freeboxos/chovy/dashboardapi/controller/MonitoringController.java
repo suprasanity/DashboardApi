@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("/hellol")
 public class MonitoringController {
 
-    @GetMapping("/heldlpo")
+    @GetMapping("/heaeaeldlpo")
     public String monitorBd(){
         return "true";
     }
