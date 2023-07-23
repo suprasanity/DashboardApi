@@ -7,7 +7,7 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/suprasanity/dashboardapi.git'
             }
         }
-        stage('Maven') {
+        stage('Mavenq') {
             steps {
                 sh 'mvn clean install'
             }
